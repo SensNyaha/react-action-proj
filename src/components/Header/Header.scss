@@ -1,0 +1,42 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        margin-left: 11px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__login {
+        border: none;
+        background: #6E7992;
+
+        padding: 3px 13px 3px 7px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 16px;
+
+        cursor: pointer;
+
+        &-img {
+            transform: translateY(-1px);
+        }
+        &-text {
+            font-size: 12px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+
+        transition: all .5s;
+
+        &:hover {
+            background-color: #313439;
+        }
+    }
+}
