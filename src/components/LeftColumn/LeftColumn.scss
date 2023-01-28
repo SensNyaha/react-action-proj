@@ -1,0 +1,21 @@
+.left-column {
+    flex-basis: 357px;
+
+    background-color: #313439;
+
+    padding: 53px 43px 37px 70px;
+
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+        margin-left: 15px;
+    }
+    &__info {
+        margin-top: 14px;
+
+        font-size: 13px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
