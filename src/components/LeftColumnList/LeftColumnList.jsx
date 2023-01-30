@@ -7,11 +7,19 @@ import LeftColumnItem from "../LeftColumnItem/LeftColumnItem";
 import "./LeftColumnList.scss";
 
 const LeftColumnList = () => {
-    const triggers = useContext(context);
+    const { sections, mainSectionChosen, setMainSectionChosen } =
+        useContext(context);
     return (
         <ul className="left-column__list">
-            {triggers.map(({ img, name, type }) => (
-                <LeftColumnItem key={name} img={img} name={name} type={type} />
+            {sections.map(({ img, name, type }) => (
+                <LeftColumnItem
+                    key={name}
+                    img={img}
+                    name={name}
+                    type={type}
+                    chosen={mainSectionChosen === name}
+                    onClick={setMainSectionChosen}
+                />
             ))}
         </ul>
     );

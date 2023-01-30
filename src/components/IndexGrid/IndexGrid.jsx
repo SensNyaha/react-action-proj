@@ -6,7 +6,7 @@ import IndexGridElem from "../IndexGridElem/IndexGridElem";
 import "./IndexGrid.scss";
 
 const IndexGrid = () => {
-    const triggers = useContext(context);
+    const { sections } = useContext(context);
 
     return (
         <div className="index__grid">
@@ -14,8 +14,8 @@ const IndexGrid = () => {
                 В <span>Актион Право</span> найдется классный продукт для
                 каждого юриста
             </div>
-            {triggers.map((trigger) => {
-                return <IndexGridElem element={trigger} />;
+            {sections.map((section) => {
+                return <IndexGridElem key={section.name} element={section} />;
             })}
         </div>
     );

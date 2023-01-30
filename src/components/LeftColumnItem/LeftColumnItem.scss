@@ -36,7 +36,7 @@
 
         transition: all 0.5s;
 
-        &:hover {
+        &:hover, &.chosen {
             background: #EEF0F4;
             color: #2F3441;
             img {
@@ -48,7 +48,7 @@
             color: #F1361D;
             font-weight: 700;
 
-            &:hover {
+            &:hover,&.chosen {
                 color: #F1361D;
 
                 img {

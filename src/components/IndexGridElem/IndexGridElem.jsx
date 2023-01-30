@@ -2,7 +2,7 @@ import "./IndexGridElem.scss";
 
 const IndexGridElem = ({ element: { img, name, type, descr } }) => {
     return (
-        <div className="index__elem" key={name}>
+        <div className="index__elem">
             <div className="index__elem-top">
                 <img
                     src={img}

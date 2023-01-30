@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__left {
+    background-color:aqua;
+    width: 30%;
+    min-width: 250px;
+}
+.section__right {
+    background-color:burlywood;
+    width: 70%;
+}

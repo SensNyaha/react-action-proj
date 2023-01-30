@@ -1,15 +1,16 @@
 .left-column {
-    flex-basis: 357px;
+    flex-basis: 320px;
 
     background-color: #313439;
 
-    padding: 53px 43px 37px 70px;
+    padding: 53px 43px 37px 37px;
 
     display: flex;
     flex-direction: column;
 
     &__logo {
         margin-left: 15px;
+        cursor: pointer;
     }
     &__info {
         margin-top: 14px;
