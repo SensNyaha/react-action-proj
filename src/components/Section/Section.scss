@@ -1,13 +1,32 @@
 .section {
     display: flex;
-    justify-content: space-between;
 }
 
 .section__left {
-    background-color:aqua;
+    background-color:rgba(0, 255, 255, 0.308);
     width: 30%;
     min-width: 250px;
 }
+
+.section__info {
+    margin: 25px;
+
+    &-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+    &-transcr {
+        margin-top: 10px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
 .section__right {
     background-color:burlywood;
     width: 70%;

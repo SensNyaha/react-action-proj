@@ -1,10 +1,11 @@
 import { useContext, useEffect, useState } from "react";
 import context from "../../context/context";
+import SectionList from "../SectionList/SectionList";
 import "./Section.scss";
 
 const Section = ({ page }) => {
     const { sections, mainSectionChosen } = useContext(context);
-    const [pageInfo, setPageInfo] = useState(null);
+    const [pageInfo, setPageInfo] = useState({});
 
     useEffect(() => {
         setPageInfo(sections.find((section) => section.name === page));
@@ -19,12 +20,7 @@ const Section = ({ page }) => {
                         {pageInfo.transcript}
                     </div>
                 </div>
-                <ul className="section__list">
-                    <li className="section__item">
-                        <h4 className="section__item-name">Law system</h4>
-                        <div className="section__item-descr">spravochnaya</div>
-                    </li>
-                </ul>
+                <SectionList />
             </div>
             <div className="section__right product">
                 <div className="product-slider">IMGIMGIGMIGMGIMGIMGIGM</div>
