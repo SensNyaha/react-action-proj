@@ -1,4 +1,5 @@
 import LeftColumn from "../LeftColumn/LeftColumn";
+import MainContent from "../MainContent/MainContent";
 import "./Main.scss";
 
 const triggers = [
@@ -37,6 +38,7 @@ const Main = () => {
     return (
         <div className="main">
             <LeftColumn triggers={triggers} />
+            <MainContent page={"index"} />
         </div>
     );
 };

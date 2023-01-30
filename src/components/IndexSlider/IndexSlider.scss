@@ -1,0 +1,50 @@
+.index__slider {
+    width: 100%;
+    max-height: 274px;
+
+    position: relative;
+
+    &-text {
+        position: absolute;
+        z-index: 999;
+        top : 50%;
+        left: 85px;
+        transform: translateY(-50%);
+    }
+
+    &-title {
+        margin: 0;
+
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 47px;
+
+        span {
+            color: #F1361D;
+            font-weight: 700;
+        }
+    }
+    &-descr {
+        max-width: 682px;
+
+        margin-top: 22px;
+        
+        font-size: 17px;
+        line-height: 27px;
+        text-align: justify;
+
+        strong {
+            font-weight: 600;
+        }
+    }
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
