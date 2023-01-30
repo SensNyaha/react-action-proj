@@ -1,0 +1,45 @@
+.index__elem {
+    border-bottom: 1px solid #DDDDDD;
+
+    &--first {
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 30px;
+
+        span {
+            font-weight: 700;
+            color: #F1361D;
+        }
+    }
+
+
+    &-top {
+        min-height: 38px;
+
+        display: flex;
+        align-items: center;
+        gap: 14px;
+
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 25px;
+
+        text-transform: uppercase;
+    }
+    &-img {
+        min-width: 36px;
+        filter: grayscale(1) brightness(0.3); 
+
+        &--orange {
+            filter: grayscale(1) brightness(0.7); 
+        }
+    }
+
+    &-bottom {
+        margin-top: 15px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

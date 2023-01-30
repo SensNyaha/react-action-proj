@@ -5,7 +5,7 @@ import bigLogo from "./big-logo.svg";
 
 import "./LeftColumn.scss";
 
-const LeftColumn = ({ triggers }) => {
+const LeftColumn = () => {
     const [year, setYear] = useState("");
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const LeftColumn = ({ triggers }) => {
             <div className="left-column__logo">
                 <img src={bigLogo} alt="Большой логотип" />
             </div>
-            <LeftColumnList triggers={triggers} />
+            <LeftColumnList />
             <SocialList />
             <div className="left-column__info">
                 © Актион-диджитал, Медиагруппа Актион-МЦФЭР, {year}

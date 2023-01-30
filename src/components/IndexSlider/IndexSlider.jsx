@@ -29,25 +29,25 @@ const IndexSlider = () => {
                 className="index__slider"
             >
                 <SwiperSlide>
-                    <img src={slide1} />
+                    <img src={slide1} alt="bg-slide" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide2} />
+                    <img src={slide2} alt="bg-slide" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide3} />
+                    <img src={slide3} alt="bg-slide" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide4} />
+                    <img src={slide4} alt="bg-slide" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide5} />
+                    <img src={slide5} alt="bg-slide" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide6} />
+                    <img src={slide6} alt="bg-slide" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide7} />
+                    <img src={slide7} alt="bg-slide" />
                 </SwiperSlide>
 
                 <div className="index__slider-text">
