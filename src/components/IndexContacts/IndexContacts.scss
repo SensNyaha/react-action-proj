@@ -1,7 +1,10 @@
 .index__contacts {
-    position: absolute;
-    bottom: -33px;
-    right: 27px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+
+    background: rgba(240, 248, 255, 0.444);
+    padding: 10px;
 
     text-align: right;
 
@@ -21,7 +24,7 @@
         width: 157px;
 
         background: #F1361D;
-        border-radius: 2px;
+        border-radius: 5px;
         border: 1px solid transparent;
 
         position: relative;

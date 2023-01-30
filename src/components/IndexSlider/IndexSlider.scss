@@ -20,7 +20,7 @@
         position: absolute;
         content: '';
 
-        width: calc(100% - 85px);
+        width: calc(100% - 35px);
         height: 1px;
         background-color: #ddd;
 
@@ -33,8 +33,10 @@
         position: absolute;
         z-index: 999;
         top : 50%;
-        left: 85px;
+        left: 35px;
         transform: translateY(-50%);
+
+        margin-right: 35px;
     }
 
     &-title {
@@ -50,7 +52,8 @@
         }
     }
     &-descr {
-        max-width: 65%;
+        max-width: 660px;
+        width: 100%;
         min-width: 400px;
 
         margin-top: 22px;
