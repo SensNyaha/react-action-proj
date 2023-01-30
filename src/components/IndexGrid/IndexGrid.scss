@@ -1,9 +1,9 @@
 .index__grid {
-    margin-top: 45px;
-    margin-left: 85px;
+    margin: 45px 30px;
 
     display: grid;
     grid-template-columns: repeat(auto-fit,273px);
+    justify-content: space-evenly;
     grid-auto-rows: 158px;
     gap: 30px;
 

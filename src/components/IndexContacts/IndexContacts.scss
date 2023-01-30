@@ -1,7 +1,7 @@
 .index__contacts {
     position: absolute;
-    bottom: 32px;
-    right: 62px;
+    bottom: -33px;
+    right: 27px;
 
     text-align: right;
 
@@ -15,5 +15,61 @@
     &-text {
         font-size: 12px;
         line-height: 15px;
+    }
+    &-callme {
+        margin-top: 6px;    
+        width: 157px;
+
+        background: #F1361D;
+        border-radius: 2px;
+        border: 1px solid transparent;
+
+        position: relative;
+
+        transition: all 0.5s;
+        color: #fff;
+
+        &:not(.opened) {
+            overflow: hidden;
+        }
+        
+        &:hover:not(.opened) {
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #F1361D;
+            border-color: #f1361d;
+
+        }
+    }
+    &-button {
+
+        width: 100%;
+
+        background: transparent;
+        border: none;
+
+        cursor: pointer;
+
+        font-size: 14px;
+        line-height: 27px;
+        text-align: center;
+
+        color: inherit;
+
+    }
+
+    &-form {
+        transition: all 0.5s;
+
+        padding: 0;
+
+        height: 0;
+        overflow: hidden;
+
+        &.opened {
+            height: 100px;
+
+            padding: 5px 10px;
+        }
     }
 }
