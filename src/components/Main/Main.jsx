@@ -21,7 +21,8 @@ const sections = [
                 ],
                 attentionText:
                     "Доступ с любого устройства без привязки к рабочему компьютеру",
-                logo: require("../../images/sectionElements/lawSystem.svg"),
+                logo: require("../../images/sectionElements/lawSystem.svg")
+                    .default,
                 text: {
                     title: "Работать легче, когда есть Система Юрист",
                     text: "Каждую рекомендацию в Системе проверяют судьи арбитражных судов, юристы компаний и эксперты. В Систему входит правовая база, судебные решения, образцы документов, видеоматериалы, экспертная поддержка и электронные версии журналов и книг.",
@@ -48,7 +49,8 @@ const sections = [
                     require("../../images/sectionElements/companyLawyerJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
-                logo: require("../../images/sectionElements/companyLawyer.svg"),
+                logo: require("../../images/sectionElements/companyLawyer.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -66,7 +68,8 @@ const sections = [
                     require("../../images/sectionElements/arbitrPracticeJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
-                logo: require("../../images/sectionElements/arbitrPractice.svg"),
+                logo: require("../../images/sectionElements/arbitrPractice.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -84,7 +87,8 @@ const sections = [
                     require("../../images/sectionElements/queriesJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
-                logo: require("../../images/sectionElements/queries.svg"),
+                logo: require("../../images/sectionElements/queries.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -102,7 +106,8 @@ const sections = [
                     require("../../images/sectionElements/corporateLawyerJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
-                logo: require("../../images/sectionElements/corporateLawyer.svg"),
+                logo: require("../../images/sectionElements/corporateLawyer.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -120,7 +125,8 @@ const sections = [
                     require("../../images/sectionElements/lawProcessJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
-                logo: require("../../images/sectionElements/lawProcess.svg"),
+                logo: require("../../images/sectionElements/lawProcess.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -148,7 +154,8 @@ const sections = [
                     require("../../images/sectionElements/highSchoolScreen.jpg"),
                 ],
                 attentionText: "80 000 юристов посещают сервис ежемесячно",
-                logo: require("../../images/sectionElements/highSchool.svg"),
+                logo: require("../../images/sectionElements/highSchool.svg")
+                    .default,
                 text: {
                     title: "Обучение для тех, кто ценит юридическое образование",
                     text: "Лучший способ повысить квалификацию и ценность на юридическом рынке в онлайн-формате. Все программы Школы состоят из курсов, в которые входят интересные видеолекции, продуманные конспекты, тесты и другие учебные материалы, полезные в работе. По итогам обучения — официальный Диплом гособразца с сертификатом европейского стандарта качества EQAVET.",
@@ -166,7 +173,8 @@ const sections = [
                     require("../../images/sectionElements/corporateSchoolScreen.jpg"),
                 ],
                 attentionText: "80 000 юристов посещают сервис ежемесячно",
-                logo: require("../../images/sectionElements/corporateSchool.svg"),
+                logo: require("../../images/sectionElements/corporateSchool.svg")
+                    .default,
                 text: {
                     title: "Обучение для тех, кто понимает плюсы корпоративного образования",
                     text: "Корпоративная школа - это способ повысить квалификацию и ценность на юридическом рынке в онлайн-формате. Все программы Школы состоят из курсов, в которые входят интересные видеолекции, продуманные конспекты, тесты и другие учебные материалы, полезные в работе.",
@@ -194,7 +202,8 @@ const sections = [
                     require("../../images/sectionElements/contragentsScreen.jpg"),
                 ],
                 attentionText: "80 000 юристов посещают сервис ежемесячно",
-                logo: require("../../images/sectionElements/contragents.svg"),
+                logo: require("../../images/sectionElements/contragents.svg")
+                    .default,
                 text: {
                     title: "Три самые правовые буквы",
                     text: "Ежедневно на сайте срочные новости, ответы на вопросы юристов, блоги, практические статьи с инструкциями и образцами, правовая база и тематические подборки - все, чтобы юрист мог надежно и быстро укрепить правовую позицию.",
@@ -222,7 +231,8 @@ const sections = [
                     require("../../images/sectionElements/companyLawyerScreen.jpg"),
                 ],
                 attentionText: "120 000 юристов посещают сайт ежемесячно",
-                logo: require("../../images/sectionElements/companyLawyer.svg"),
+                logo: require("../../images/sectionElements/companyLawyer.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Сервис подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -239,7 +249,8 @@ const sections = [
                     require("../../images/sectionElements/lawProcessScreen.jpg"),
                 ],
                 attentionText: "110 000 юристов посещают сайт ежемесячно",
-                logo: require("../../images/sectionElements/lawProcess.svg"),
+                logo: require("../../images/sectionElements/lawProcess.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Сервис подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -256,7 +267,8 @@ const sections = [
                     require("../../images/sectionElements/queriesScreen.jpg"),
                 ],
                 attentionText: "180 000 юристов посещают сайт ежемесячно",
-                logo: require("../../images/sectionElements/queries.svg"),
+                logo: require("../../images/sectionElements/queries.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Сервис подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -273,7 +285,8 @@ const sections = [
                     require("../../images/sectionElements/lawProcessScreen.jpg"),
                 ],
                 attentionText: "110 000 юристов посещают сайт ежемесячно",
-                logo: require("../../images/sectionElements/arbitrPractice.svg"),
+                logo: require("../../images/sectionElements/arbitrPractice.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Сервис подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -299,7 +312,8 @@ const sections = [
                 images: [
                     require("../../images/sectionElements/webinarsScreen.jpg"),
                 ],
-                logo: require("../../images/sectionElements/webinars.svg"),
+                logo: require("../../images/sectionElements/webinars.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -317,7 +331,8 @@ const sections = [
                     require("../../images/sectionElements/forum1.jpg"),
                     require("../../images/sectionElements/forum2.jpg"),
                 ],
-                logo: require("../../images/sectionElements/webinars.svg"),
+                logo: require("../../images/sectionElements/webinars.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -335,7 +350,8 @@ const sections = [
                     require("../../images/sectionElements/award1.jpg"),
                     require("../../images/sectionElements/award2.jpg"),
                 ],
-                logo: require("../../images/sectionElements/webinars.svg"),
+                logo: require("../../images/sectionElements/webinars.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -349,10 +365,11 @@ const sections = [
                 name: "Премия «Корпоративный юрист»",
                 description: "Лучшие юридические департаменты",
                 images: [
-                    require("../../images/sectionElements/award3.jpg").default,
-                    require("../../images/sectionElements/award4.jpg").default,
+                    require("../../images/sectionElements/award3.jpg"),
+                    require("../../images/sectionElements/award4.jpg"),
                 ],
-                logo: require("../../images/sectionElements/webinars.svg"),
+                logo: require("../../images/sectionElements/webinars.svg")
+                    .default,
                 text: {
                     title: "Для всех, кого интересует правовая безопасность бизнеса",
                     text: "Журнал подходит для любых юристов любых компаний. Каждый месяц публикует готовые решения правовых задач, обзоры судебной практики, интервью с юристами компаний, значимые процессы, ноу-хау коллег-юристов. ",
@@ -379,7 +396,8 @@ const sections = [
                     require("../../images/sectionElements/action360Screen.jpg"),
                 ],
                 attentionText: "300 000 юристов посещают сервис ежемесячно",
-                logo: require("../../images/sectionElements/action360.svg"),
+                logo: require("../../images/sectionElements/action360.svg")
+                    .default,
                 text: {
                     title: "Единое решение для ключевых служб компании",
                     text: "Справочные системы, онлайн-школы и сервисы — все лучшие продукты медиахолдинга Актион собраны в одном месте. Удобные инструменты для сотрудников, от которых зависит эффективность компании.",
