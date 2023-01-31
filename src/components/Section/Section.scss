@@ -1,9 +1,10 @@
 .section {
     display: flex;
+
+    height: 100%;
 }
 
 .section__left {
-    background-color:rgba(0, 255, 255, 0.308);
     width: 30%;
     min-width: 250px;
 }

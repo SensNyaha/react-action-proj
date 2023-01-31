@@ -1,0 +1,44 @@
+.section__list {
+    margin-top: 30px;
+}
+
+.section__item {
+    position: relative;
+    padding: 25px 45px;
+
+    min-height: 116px;
+
+    border-left: 0px solid #2F80ED;
+    border-bottom: 1px solid #D8E4F5;
+
+    cursor: pointer;
+
+    &:first-child {
+        border-top: 1px solid #D8E4F5;
+    }
+
+    background: #F8F9FB;
+    transition: all 0.2s;
+    &.chosen {
+        background: #EEF0F4;
+        border-left-width: 5px;
+    }
+
+    &-icon {
+        position: absolute;
+        top: 25px;
+        left: 7px;
+    }
+    &-name {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &-descr {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #51606D;
+    }
+}
