@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import context from "../../context/context";
+import Product from "../Product/Product";
 import SectionList from "../SectionList/SectionList";
 import "./Section.scss";
 
@@ -33,8 +34,12 @@ const Section = ({ page }) => {
                     onClick={setChosenSectionElementIndex}
                 />
             </div>
-            <div className="section__right product">
-                <div className="product-slider">IMGIMGIGMIGMGIMGIMGIGM</div>
+            <div className="section__right">
+                <Product
+                    content={
+                        pageInfo.sectionElements?.[chosenSectionElementIndex]
+                    }
+                />
             </div>
         </div>
     );

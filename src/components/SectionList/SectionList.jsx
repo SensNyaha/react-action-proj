@@ -5,12 +5,12 @@ const SectionList = ({ content, chosenIndex, onClick }) => {
         <ul className="section__list">
             {content &&
                 content.map((item, index) => {
-                    console.log(item, index, chosenIndex);
                     return (
                         <li
                             className={`section__item ${
                                 chosenIndex === index ? "chosen" : ""
                             }`}
+                            key={item.name}
                             onClick={() => onClick(index)}
                         >
                             <img

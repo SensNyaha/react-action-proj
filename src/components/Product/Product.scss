@@ -1,0 +1,41 @@
+.product {
+    height: 100%;
+
+    &__attention {
+        position: absolute;
+
+        width: 175px;
+        height: 175px;
+        border-radius: 100%;
+
+        background: #F1361D;
+        mix-blend-mode: normal;
+        opacity: 0.9;
+
+        bottom: 25px;
+        right: 50px;
+        z-index: 9;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        color: #fff;
+
+        &-mark {
+            font-size: 56px;
+            line-height: 20px;
+
+        }
+        &-text {
+            margin-top: 25px;
+
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+
+            width: 145px;
+        }
+    }
+}

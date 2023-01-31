@@ -17,8 +17,7 @@ const sections = [
                 name: "Система Юрист",
                 description: "Юридическая справочная система",
                 images: [
-                    require("../../images/sectionElements/lawSystemPhoto.jpg")
-                        .default,
+                    require("../../images/sectionElements/lawSystemPhoto.jpg"),
                 ],
                 attentionText:
                     "Доступ с любого устройства без привязки к рабочему компьютеру",
@@ -46,8 +45,7 @@ const sections = [
                 name: "Юрист компании",
                 description: "Практический журнал для юриста",
                 images: [
-                    require("../../images/sectionElements/companyLawyerJournal.jpg")
-                        .default,
+                    require("../../images/sectionElements/companyLawyerJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
                 logo: require("../../images/sectionElements/companyLawyer.svg"),
@@ -65,8 +63,7 @@ const sections = [
                 name: "Арбитражная практика для юристов",
                 description: "Журнал о том, как выиграть спор в суде",
                 images: [
-                    require("../../images/sectionElements/arbitrPracticeJournal.jpg")
-                        .default,
+                    require("../../images/sectionElements/arbitrPracticeJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
                 logo: require("../../images/sectionElements/arbitrPractice.svg"),
@@ -84,8 +81,7 @@ const sections = [
                 name: "Трудовые споры",
                 description: "Практика разрешения трудовых конфликтов",
                 images: [
-                    require("../../images/sectionElements/queriesJournal.jpg")
-                        .default,
+                    require("../../images/sectionElements/queriesJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
                 logo: require("../../images/sectionElements/queries.svg"),
@@ -103,8 +99,7 @@ const sections = [
                 name: "Корпоративный юрист",
                 description: "Журнал о лучших по праву",
                 images: [
-                    require("../../images/sectionElements/corporateLawyerJournal.jpg")
-                        .default,
+                    require("../../images/sectionElements/corporateLawyerJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
                 logo: require("../../images/sectionElements/corporateLawyer.svg"),
@@ -122,8 +117,7 @@ const sections = [
                 name: "Уголовный процесс",
                 description: "Практика успешной защиты и обвинения",
                 images: [
-                    require("../../images/sectionElements/lawProcessJournal.jpg")
-                        .default,
+                    require("../../images/sectionElements/lawProcessJournal.jpg"),
                 ],
                 attentionText: "50 000 юристов читают журнал ежемесячно",
                 logo: require("../../images/sectionElements/lawProcess.svg"),
@@ -151,8 +145,7 @@ const sections = [
                 name: "Высшая школа Юрист компании",
                 description: "Обучение юристов онлайн",
                 images: [
-                    require("../../images/sectionElements/highSchoolScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/highSchoolScreen.jpg"),
                 ],
                 attentionText: "80 000 юристов посещают сервис ежемесячно",
                 logo: require("../../images/sectionElements/highSchool.svg"),
@@ -170,8 +163,7 @@ const sections = [
                 name: "Корпоративная школа",
                 description: "Обучение юридических отделов онлайн",
                 images: [
-                    require("../../images/sectionElements/corporateSchoolScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/corporateSchoolScreen.jpg"),
                 ],
                 attentionText: "80 000 юристов посещают сервис ежемесячно",
                 logo: require("../../images/sectionElements/corporateSchool.svg"),
@@ -199,8 +191,7 @@ const sections = [
                 name: "Юрист компании Контрагенты",
                 description: "Проверка контрагентов для юриста",
                 images: [
-                    require("../../images/sectionElements/contragentsScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/contragentsScreen.jpg"),
                 ],
                 attentionText: "80 000 юристов посещают сервис ежемесячно",
                 logo: require("../../images/sectionElements/contragents.svg"),
@@ -228,8 +219,7 @@ const sections = [
                 name: "LAW.RU",
                 description: "Сайт журнала «Юрист компании»",
                 images: [
-                    require("../../images/sectionElements/companyLawyerScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/companyLawyerScreen.jpg"),
                 ],
                 attentionText: "120 000 юристов посещают сайт ежемесячно",
                 logo: require("../../images/sectionElements/companyLawyer.svg"),
@@ -246,8 +236,7 @@ const sections = [
                 name: "UGPR.RU",
                 description: "Сайт журнала «Уголовный процесс»",
                 images: [
-                    require("../../images/sectionElements/lawProcessScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/lawProcessScreen.jpg"),
                 ],
                 attentionText: "110 000 юристов посещают сайт ежемесячно",
                 logo: require("../../images/sectionElements/lawProcess.svg"),
@@ -264,8 +253,7 @@ const sections = [
                 name: "TSPOR.RU",
                 description: "Сайт журнала «Трудовые споры»",
                 images: [
-                    require("../../images/sectionElements/queriesScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/queriesScreen.jpg"),
                 ],
                 attentionText: "180 000 юристов посещают сайт ежемесячно",
                 logo: require("../../images/sectionElements/queries.svg"),
@@ -282,8 +270,7 @@ const sections = [
                 name: "ARBITR-PRAKTIKA.RU",
                 description: "Сайт журнала «Арбитражная практика для юристов»",
                 images: [
-                    require("../../images/sectionElements/lawProcessScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/lawProcessScreen.jpg"),
                 ],
                 attentionText: "110 000 юристов посещают сайт ежемесячно",
                 logo: require("../../images/sectionElements/arbitrPractice.svg"),
@@ -310,8 +297,7 @@ const sections = [
                 name: "Вебинары и онлайн конференции",
                 description: "Расшифоровка",
                 images: [
-                    require("../../images/sectionElements/webinarsScreen.jpg")
-                        .default,
+                    require("../../images/sectionElements/webinarsScreen.jpg"),
                 ],
                 logo: require("../../images/sectionElements/webinars.svg"),
                 text: {
@@ -328,8 +314,8 @@ const sections = [
                 name: "Форум Системы Юрист в Кремле",
                 description: "Расшифоровка",
                 images: [
-                    require("../../images/sectionElements/forum1.jpg").default,
-                    require("../../images/sectionElements/forum2.jpg").default,
+                    require("../../images/sectionElements/forum1.jpg"),
+                    require("../../images/sectionElements/forum2.jpg"),
                 ],
                 logo: require("../../images/sectionElements/webinars.svg"),
                 text: {
@@ -346,8 +332,8 @@ const sections = [
                 name: "Премия «Юрист компании»",
                 description: "Всероссийская правовая премия",
                 images: [
-                    require("../../images/sectionElements/award1.jpg").default,
-                    require("../../images/sectionElements/award2.jpg").default,
+                    require("../../images/sectionElements/award1.jpg"),
+                    require("../../images/sectionElements/award2.jpg"),
                 ],
                 logo: require("../../images/sectionElements/webinars.svg"),
                 text: {
@@ -390,8 +376,7 @@ const sections = [
                 name: "Актион 360",
                 description: "Головной сервис",
                 images: [
-                    require("../../images/sectionElements/action360Screen.jpg")
-                        .default,
+                    require("../../images/sectionElements/action360Screen.jpg"),
                 ],
                 attentionText: "300 000 юристов посещают сервис ежемесячно",
                 logo: require("../../images/sectionElements/action360.svg"),
