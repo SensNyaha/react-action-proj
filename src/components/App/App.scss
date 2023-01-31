@@ -9,6 +9,19 @@
 
     margin: 0;
     padding: 0;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 40px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #313439;
+        border-radius: 20px;
+    }
+
+    scrollbar-width: thin;
+    scrollbar-color: #313439 transition;
 }
 
 .app {

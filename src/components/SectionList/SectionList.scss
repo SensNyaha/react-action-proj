@@ -1,5 +1,6 @@
 .section__list {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .section__item {
@@ -27,7 +28,7 @@
     &-icon {
         position: absolute;
         top: 25px;
-        left: 7px;
+        left: 12px;
     }
     &-name {
         font-weight: 600;
