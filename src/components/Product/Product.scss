@@ -3,6 +3,7 @@
     padding-bottom: 25px;
 
     overflow: auto;
+    overflow-x: hidden;
 
     &__attention {
         position: absolute;
